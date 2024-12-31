@@ -1,0 +1,179 @@
+header h1 {
+    font-family: "Montaga", "Helvetica Neue", Helvetica, Arial, serif;
+    text-shadow: 2px 2px 4px rgb(12 12 12 / 80%);
+    width: auto !important;
+}
+.page-title {
+    border-bottom: 1px dotted #abcaf1;
+    margin-bottom: 15px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-weight: normal;
+    color: #474747;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.page-title span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #938165;
+    text-transform: initial;
+}
+#main-content .plugin-item {
+    padding: 20px;
+    margin-top: 0;
+    // box-shadow: 1px 1px 4px #616161;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+#main-content .plugin-item:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+#main-content .plugin-item p {
+    margin-bottom: 5px !important;
+}
+#main-content .plugin-item .plugin-item-left {
+    width: 185px;
+    padding: 0 5px;
+}
+#main-content .plugin-item .plugin-item-right {
+    padding: 0 5px;
+    width: calc(100% - 206px);
+}
+#main-content .plugin-item .plugin-item-left h2.plugin-item-name {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    text-align: center;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+#main-content .plugin-item .plugin-item-left .plugin-item-price {
+    font-size: 1.6em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF4500;
+    font-family: 'Roboto Mono', monospace;
+}
+#main-content .plugin-item .plugin-item-left h2.plugin-item-name::before {
+    content: "#" !important;
+    margin-left: 0 !important;
+    display: none;
+}
+#main-content .plugin-item .plugin-item-right span.label {
+    width: 40px;
+    display: inline-block;
+}
+#main-content .plugin-item .plugin-item-right span.value {
+    font-weight: 800;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #663399;
+    color: #efefef;
+}
+#main-content .plugin-item .plugin-item-right span.value.module {
+    background-color: #8d46d3;
+}
+#main-content .plugin-item .plugin-item-right .plugin-item-link a {
+    padding: 2px 4px;
+    margin-left: -4px;
+    transition: 0.3s;
+}
+#main-content .plugin-item .plugin-item-right .plugin-item-link a:hover {
+    border: 1px dotted #666;
+    border-radius: 2px;
+    background-color: #abcaf1;
+    color: #3f3f3f;
+}
+#main-content .plugin-item .plugin-item-right .plugin-item-link a i {
+    font-size: 0.8em;
+}
+aside {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+#sidebar .sidebar-item {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, serif;
+}
+#sidebar .sidebar-item p {
+    margin: 5px 0;
+    font-size: 1.4em;
+}
+#sidebar .sidebar-item p a {
+    color: #3f3f3f;
+    margin-left: 8px;
+    padding: 2px 4px;
+    background-color: #abcaf1;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #3d3f3d;
+    transition: 0.3s linear;
+}
+#sidebar .sidebar-item p a:hover {
+    color: #313131;
+    background-color: #dae8fa;
+}
+#sidebar .sidebar-item .sidebar-item-title {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #474747;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#sidebar .copyright {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif;
+    margin-top: 5px;
+    padding-top: 10px;
+    border-top: 1px dotted #dd8b8b;
+    font-size: 1em;
+}
+footer {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    color: #7c7c7c !important;
+}
+footer .inner {
+    display: flex;
+    align-items: center;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    border-top: 1px dotted #abcaf1;
+}
+footer .inner h1 {
+    font-family: "Montaga", "Helvetica Neue", Helvetica, Arial, serif;
+}
+footer .footer-left {
+    width: 690px;
+}
+footer .footer-left a:hover {
+    cursor: pointer;
+    color: #666;
+}
+footer .footer-left .social-group {
+    font-size: 2em;
+}
+footer .footer-left .social-group .fa-facebook-square {
+    color: #0063fa;
+}
+footer .footer-left .social-group .fa-linkedin {
+    color: #0076b2;
+}
+footer .footer-left .social-group .fa-github-square {
+    color: #222;
+}
+footer .footer-left h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+footer .footer-right {
+    width: calc(100% - 690px);
+}
