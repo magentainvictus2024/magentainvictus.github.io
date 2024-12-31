@@ -3,6 +3,13 @@ header h1 {
     text-shadow: 2px 2px 4px #0c0c0ccc;
     width: auto !important;
 }
+header h2.subtitle-header {
+    width: auto !important
+}
+header a.button-header {
+    display: block;
+    margin-top: 20px;
+}
 .page-title {
     border-bottom: 1px dotted #abcaf1;
     margin-bottom: 15px !important;
