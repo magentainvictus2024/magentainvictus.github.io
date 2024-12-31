@@ -1,6 +1,6 @@
 header h1 {
     font-family: "Montaga", "Helvetica Neue", Helvetica, Arial, serif;
-    text-shadow: 2px 2px 4px rgb(12 12 12 / 80%);
+    text-shadow: 2px 2px 4px #0c0c0ccc;
     width: auto !important;
 }
 .page-title {
@@ -27,13 +27,13 @@ header h1 {
     // box-shadow: 1px 1px 4px #616161;
     margin-bottom: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #0000001a;
     display: flex;
     align-items: center;
     transition: all 0.3s;
 }
 #main-content .plugin-item:hover {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px #00000080;
 }
 #main-content .plugin-item p {
     margin-bottom: 5px !important;
@@ -172,7 +172,7 @@ footer .footer-left .social-group .fa-github-square {
     color: #222;
 }
 footer .footer-left h1 {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px #00000033;
 }
 footer .footer-right {
     width: calc(100% - 690px);
